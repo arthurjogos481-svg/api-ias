@@ -1,7 +1,14 @@
 {
   "name": "api-ia-iota",
   "version": "1.0.0",
+  "description": "API de IA para BDFD usando OpenAI",
+  "main": "api/ia.js",
+  "scripts": {
+    "start": "node api/ia.js"
+  },
   "dependencies": {
     "node-fetch": "^2.6.7"
-  }
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
 }
